@@ -1,3 +1,3 @@
 def call(String msg="BUILD"){
-   sh 'mvn clean package'
+   sh 'mn clean package'
 }
