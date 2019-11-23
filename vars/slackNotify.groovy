@@ -8,7 +8,7 @@ def call(String buildStatus = 'STARTED') {
   buildStatus =  buildStatus ?: 'SUCCESSFUL'
 
   // Default values
-  def mailRecipients = "maheshwar.mannur@gmail.com"
+  def mailRecipients = "sou3shetagar@gmail.com"
   def color = 'RED'
   def colorCode = '#FF0000'
   def subject = "${buildStatus}: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]'"
